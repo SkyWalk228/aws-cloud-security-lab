@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +217,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AWS CLI installers
+awscliv2.zip
+aws/
+
+# AWS credentials — NEVER commit these
+.aws/
+credentials
+*.pem
+*.key
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Ansible retry files
+*.retry
